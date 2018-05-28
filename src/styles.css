@@ -12,7 +12,7 @@ body {
 }
 
 .body-content {
-  padding: 0% 10%;
+  padding: 5% 30% 3% 2%;
   display: inline-block;
 }
 
@@ -47,7 +47,7 @@ body {
   z-index: 999;
   background-color: #361c1f;
   padding: 1% 2% 2% 2%;
-  color: #fff;
+ /* color: #fff;*/
   box-shadow: 0px 6px 6px #609f5e;
 }
 .logo>label {
@@ -57,6 +57,7 @@ body {
 
 .logged-user {
   float: right;
+  padding:2% 2% 2% 0%;
   font-size: 15px;
   font-family: sans-serif;
   display: inline-block;
@@ -66,11 +67,11 @@ body {
 
 .body-container {
   background-color: #fff;
-  padding: 1% 2% 2% 1%;
-  /* color: #fff; */
+  padding: 5% 80% 5% 0%;
+  color: #9fff8b;
   position: relative;
   margin: 0 auto;
-  width: 80%;
+  width: 50%;
   display: flex;
   justify-content: center;
 }
@@ -83,15 +84,16 @@ nav {
 
 nav ul {
   margin: 0 2%;
-  padding: 0;
+  padding: 0%;
   list-style: none;
+  color: #4cadff
 }
 
 nav ul li {
   background: #d33a2c;
   border: 1px solid #b52c1f;
   padding: 6%;
-  border-left: 6px solid #760a00;
+  border-left: 6px solid rgba(163, 49, 39, 0.92);
 }
 
 .user-container {
@@ -110,3 +112,79 @@ nav ul li {
 
 .user-container .user-block {
 }
+.footer-distributed .footer-left {
+  float: left;
+  background color: #6f8cff;
+
+}
+
+.footer-distributed .footer-links {
+  color: #a9bdff;
+  margin: 0 0 10px;
+  padding: 20px;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer right */
+
+.footer-distributed .footer-right {
+  float: right;
+}
+
+/* The search form */
+
+.footer-distributed form {
+  position: relative;
+}
+
+.footer-distributed form input {
+  display: block;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color: #361c1f;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+  border: none;
+  font: inherit;
+  font-size: 14px;
+  font-weight: normal;
+  color: #d1d2d2;
+  width: 500px;
+  padding: 18px 50px 18px 18px;
+}
+
+.footer-distributed form input:focus {
+  outline: none;
+}
+
+/* Changing the placeholder color */
+
+.footer-distributed form input::-webkit-input-placeholder {
+  color: #5c666b;
+}
+
+.footer-distributed form input::-moz-placeholder {
+  opacity: 1;
+  color: #5c666b;
+}
+
+.footer-distributed form input:-ms-input-placeholder {
+  color: #5c666b;
+}
+
+
+
+/****************** Footer CSS  - END ******************/
+
