@@ -12,7 +12,7 @@ body {
 }
 
 .body-content {
-  padding: 5% 30% 3% 2%;
+  padding: 5% 0% 3% 2%;
   display: inline-block;
 }
 
@@ -66,12 +66,12 @@ body {
 /****************** Header CSS  - END ******************/
 
 .body-container {
-  background-color: #fff;
-  padding: 5% 80% 5% 0%;
+  background-color: #e1e1e1;
+  padding: 5% 10% 10% 0%;
   color: #9fff8b;
   position: relative;
   margin: 0 auto;
-  width: 50%;
+  width: 40%;
   display: flex;
   justify-content: center;
 }
@@ -79,14 +79,14 @@ body {
 nav {
   display: inline-block;
   float: left;
-  width: 20%;
+  width: 30%;
 }
 
 nav ul {
   margin: 0 2%;
   padding: 0%;
   list-style: none;
-  color: #4cadff
+  color: #46a9ff
 }
 
 nav ul li {
@@ -114,7 +114,7 @@ nav ul li {
 }
 .footer-distributed .footer-left {
   float: left;
-  background color: #6f8cff;
+
 
 }
 
@@ -142,6 +142,7 @@ nav ul li {
 
 .footer-distributed .footer-right {
   float: right;
+
 }
 
 /* The search form */
@@ -152,15 +153,15 @@ nav ul li {
 
 .footer-distributed form input {
   display: block;
-  border-radius: 3px;
+  border-radius: 6px;
   box-sizing: border-box;
-  background-color: #361c1f;
-  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+  background-color: #fcfcfc;
+  box-shadow: 0 1px 0 0 rgba(41, 53, 54, 0.72);
   border: none;
   font: inherit;
   font-size: 14px;
   font-weight: normal;
-  color: #d1d2d2;
+  color: rgba(21, 26, 54, 0.81);
   width: 500px;
   padding: 18px 50px 18px 18px;
 }
@@ -171,18 +172,6 @@ nav ul li {
 
 /* Changing the placeholder color */
 
-.footer-distributed form input::-webkit-input-placeholder {
-  color: #5c666b;
-}
-
-.footer-distributed form input::-moz-placeholder {
-  opacity: 1;
-  color: #5c666b;
-}
-
-.footer-distributed form input:-ms-input-placeholder {
-  color: #5c666b;
-}
 
 
 
